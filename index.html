@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mayurdhwajsinh | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome CDN (put in <head>) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <div id="toast" class="toast" role="alert" aria-live="polite">📄 Resume download started!</div>
+
+  <header>
+    <nav class="navbar animate-fade-in">
+      <h1 class="logo" id="typed-name"></h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="section animate-slide-up">
+      <h2>About Me</h2>
+      <img src="images/MyPhoto.jpg" alt="Profile Photo" class="profile-img fade-in" />
+      <p class="fade-in-delay">
+        I’m Jadeja Mayurdhwajsinh Hitendrasinh from Jamnagar, Gujarat — an aspiring Software Developer with hands-on
+        experience in Android and web development using Java, Django, Firebase, and MySQL. Currently pursuing my MCA at
+        Dharmsinh Desai University, Nadiad, I’m actively sharpening my skills in Spring Boot and modern web
+        technologies. I’m passionate about building impactful, scalable applications and continuously improving my
+        problem-solving abilities to deliver reliable software solutions.
+      </p>
+      <p class="fade-in-delay" style="margin-top: 7px;">
+        I’m currently part of the <strong>GDSC Mobile Team</strong> and served as a core <strong>Organizing Team Member
+          of DUHacks 4.0</strong> — a national-level hackathon with over 6,000 participants.
+      </p>
+      <a href="JadejaMayurdhwajsinh_Resume.pdf" download class="btn fade-in-delay" onclick="showToast()" style="margin-top: 10px;">Download
+        Resume</a>
+    </section>
+
+    <section id="education" class="section animate-slide-up">
+      <h2>Education</h2>
+      <div class="education-item fade-in-delay">
+        <h3>Master of Computer Applications (M.C.A.)</h3>
+        <p><strong>Dharmsinh Desai University, Nadiad</strong> | 2024 – 2026 (Expected)</p>
+        <p>CPI: 8.27</p>
+      </div>
+      <div class="education-item fade-in-delay">
+        <h3>Bachelor of Computer Applications (B.C.A.)</h3>
+        <p><strong>Dharmsinh Desai University, Nadiad</strong> | 2021 – 2024</p>
+        <p>Percentage: 76.10%</p>
+      </div>
+      <div class="education-item fade-in-delay">
+        <h3>Higher Secondary School (H.S.C.)</h3>
+        <p><strong>Shree Satya Sai Vidhyalaya, Jamnagar</strong> | 2020 – 2021</p>
+        <p>Percentage: 82.71%</p>
+      </div>
+      <div class="education-item fade-in-delay">
+        <h3>Secondary School (S.S.C.)</h3>
+        <p><strong>Shree Satya Sai Vidhyalaya, Jamnagar</strong> | 2018 – 2019</p>
+        <p>Percentage: 87%</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section animate-slide-up">
+      <h2>Skills</h2>
+
+      <!-- Programming Languages -->
+      <h3 class="skill-category">Programming Languages</h3>
+      <div class="skills-grid fade-in-delay">
+        <span><i class="fas fa-code"></i> C</span>
+        <span><i class="fas fa-code"></i> C++</span>
+        <span><i class="fab fa-java"></i> Java</span>
+        <span><i class="fab fa-js-square"></i> JavaScript</span>
+        <span><i class="fab fa-python"></i> Python</span>
+      </div>
+
+      <!-- Web Technologies -->
+      <h3 class="skill-category">Web & Mobile Technologies</h3>
+      <div class="skills-grid fade-in-delay">
+        <span><i class="fab fa-html5"></i> HTML</span>
+        <span><i class="fab fa-css3-alt"></i> CSS</span>
+        <span><i class="fas fa-code"></i> XML</span>
+        <span><i class="fas fa-mobile-alt"></i> Android</span>
+        <span><i class="fas fa-code"></i> PHP</span>
+        <span><i class="fas fa-code"></i> ASP.NET (C#)</span>
+        <span><i class="fas fa-leaf"></i> Django</span>
+      </div>
+
+      <!-- Databases -->
+      <h3 class="skill-category">Databases</h3>
+      <div class="skills-grid fade-in-delay">
+        <span><i class="fas fa-database"></i> MySQL</span>
+        <span><i class="fas fa-database"></i> Room DB</span>
+        <span><i class="fas fa-fire"></i> Firebase Firestore</span>
+        <span><i class="fas fa-fire"></i> Firebase Realtime</span>
+      </div>
+
+      <!-- Tools -->
+      <h3 class="skill-category">Tools & Platforms</h3>
+      <div class="skills-grid fade-in-delay">
+        <span><i class="fab fa-git-alt"></i> Git</span>
+        <span><i class="fab fa-github"></i> GitHub</span>
+        <span><i class="fas fa-code"></i> VS Code</span>
+        <span><i class="fas fa-laptop-code"></i> Android Studio</span>
+      </div>
+
+      <!-- CS Concepts -->
+      <h3 class="skill-category">Core CS Concepts</h3>
+      <div class="skills-grid fade-in-delay">
+        <span><i class="fas fa-cogs"></i> Data Structures</span>
+        <span><i class="fas fa-cube"></i> OOP</span>
+        <span><i class="fas fa-database"></i> DBMS</span>
+        <span><i class="fas fa-desktop"></i> Operating Systems</span>
+        <span><i class="fas fa-project-diagram"></i> Software Engineering</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section animate-slide-up">
+      <h2>Projects</h2>
+
+      <!-- Notes App -->
+      <div class="project-card fade-in">
+        <h3>Advanced Notes Application</h3>
+        <figure class="project-figure">
+          <img src="images/Adv_Notes.png" alt="Notes App Screenshot" class="project-img zoom-in" />
+          <figcaption>
+            Built a feature-rich Android notes app with local/cloud storage, login/registration, Firebase user
+            authentication, Firebase Firestore database, and Firebase Analytics. Core features include note
+            creation/editing, hide/unhide, rating, sharing, “About Us”, image/URL attachment, color customization, and
+            reminders.
+          </figcaption>
+        </figure>
+        <div class="tech-icons">
+          <span><i class="fab fa-java"></i> Java</span>
+          <span><i class="fas fa-code"></i> XML</span>
+          <span><i class="fas fa-database"></i> Room DB</span>
+          <span><i class="fas fa-fire"></i> Firebase</span>
+        </div>
+        <a href="https://github.com/JadejaMayurdhwajsinh/AdvanceNotesApplication" target="_blank" class="btn">Source
+          Code</a>
+      </div>
+
+      <!-- ShikshaSutra -->
+      <div class="project-card fade-in">
+        <h3>ShikshaSutra – Student Management System</h3>
+        <figure class="project-figure">
+          <img src="images/SS.png" alt="ShikshaSutra Screenshot" class="project-img zoom-in" />
+          <figcaption>
+            Built a functional student management system with login/registration, form handling, MySQL integration, and
+            full CRUD operations. Currently expanding the project with new features and improved UI.
+          </figcaption>
+        </figure>
+        <div class="tech-icons">
+          <span><i class="fab fa-python"></i> Django</span>
+          <span><i class="fab fa-html5"></i> HTML</span>
+          <span><i class="fab fa-css3-alt"></i> CSS</span>
+          <span><i class="fas fa-database"></i> MySQL</span>
+        </div>
+        <a href="https://github.com/JadejaMayurdhwajsinh/ShikshaSutra" target="_blank" class="btn">Source Code</a>
+      </div>
+
+      <!-- Health Website -->
+      <div class="project-card fade-in">
+        <h3>Health & Wellness Website</h3>
+        <figure class="project-figure">
+          <img src="images/HW.png" alt="Health Website Screenshot" class="project-img zoom-in" />
+          <figcaption>
+            Static site focused on BMI calculator, health tips, and wellness blogs. Clean responsive layout built using
+            only HTML & CSS.
+          </figcaption>
+        </figure>
+        <div class="tech-icons">
+          <span><i class="fab fa-html5"></i> HTML</span>
+          <span><i class="fab fa-css3-alt"></i> CSS</span>
+        </div>
+        <a href="https://github.com/JadejaMayurdhwajsinh/Health-and-Wellness" target="_blank" class="btn">Source
+          Code</a>
+      </div>
+    </section>
+
+    <section id="experience" class="section animate-slide-up">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <!-- Internship -->
+        <div class="timeline-item fade-in">
+          <div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
+          <div class="timeline-content">
+            <h3>Android Developer Intern <span>@ Venom Technologies</span></h3>
+            <p class="experience-duration">Dec 2023 – Mar 2024</p>
+            <ul>
+              <li>Built a notes app using Java, Room DB, Firebase Firestore, and XML.</li>
+              <li>Worked on UI, bug fixes, and integration with backend systems.</li>
+            </ul>
+            <a href="https://drive.google.com/file/d/1Qmd4A6_nR3qAgp_3EFJ1AYeCJLavFdoP/view?usp=sharing" target="_blank"
+              class="btn">View Certificate</a>
+          </div>
+        </div>
+
+        <!-- GDSC -->
+        <div class="timeline-item fade-in">
+          <div class="timeline-icon">
+            <img src="images/gdsc.png" alt="GDSC Logo" style="width: 28px; height: 28px; border-radius: 50%;" />
+          </div>
+          <div class="timeline-content">
+            <h3>Mobile Team Member <span>@ GDSC DDU</span></h3>
+            <p class="experience-duration">2024 – Present</p>
+            <ul>
+              <li>Selected as part of the Google Developer Student Club mobile team.</li>
+              <li>Collaborated on Android-based solutions and technical sessions.</li>
+            </ul>
+            <a href="https://drive.google.com/file/d/1QRll1qgF9ANlVystoD9ndhaeMx2xzCaT/view?usp=drive_link"
+              target="_blank" class="btn">View Certificate</a>
+          </div>
+        </div>
+
+        <!-- DUHacks -->
+        <div class="timeline-item fade-in">
+          <div class="timeline-icon">
+            <img src="images/duhacks.webp" alt="DUHacks Logo" style="width: 28px; height: 28px; border-radius: 50%;" />
+          </div>
+          <div class="timeline-content">
+            <h3>Organizing Team Member <span>@ DUHacks 4.0</span></h3>
+            <p class="experience-duration">Feb 2024</p>
+            <ul>
+              <li>Core team member of a national hackathon with 6000+ registrations.</li>
+              <li>Managed outreach, logistics, and 36-hour operations.</li>
+            </ul>
+            <a href="https://drive.google.com/file/d/1Q-5gLdtq46_EN05cwGJY7DR9lp3iR5Dj/view?usp=drive_link"
+              target="_blank" class="btn">View Certificate</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section animate-slide-up">
+      <h2>Contact</h2>
+      <div class="contact-container">
+        <div class="contact-item"><i class="fas fa-envelope"></i> <a
+            href="mailto:jadejamayurdhwajsinh6@gmail.com">jadejamayurdhwajsinh6@gmail.com</a></div>
+        <div class="contact-item"><i class="fab fa-linkedin"></i> <a
+            href="https://www.linkedin.com/in/jadeja-mayurdhwajsinh-82a68b259" target="_blank">Jadeja Mayurdhwajsinh</a>
+        </div>
+        <div class="contact-item"><i class="fab fa-github"></i> <a href="https://github.com/JadejaMayurdhwajsinh"
+            target="_blank">Jadeja Mayurdhwajsinh</a></div>
+        <div class="contact-item"><i class="fas fa-phone-alt"></i> <a href="tel:+918320435229">+91 83204 35229</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="fade-in">
+    <div class="footer-content">
+      <p>&copy; <span id="year"></span> Mayurdhwajsinh. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="https://github.com/JadejaMayurdhwajsinh" target="_blank" aria-label="GitHub"><i
+            class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/jadeja-mayurdhwajsinh-82a68b259" target="_blank" aria-label="LinkedIn"><i
+            class="fab fa-linkedin"></i></a>
+        <a href="https://leetcode.com/jadeja_mayurdhwajsinh" target="_blank" class="btn l1"  aria-label="LeetCode">
+          <i class="fas fa-code leetcode"></i></a>
+
+      </div>
+    </div>
+    <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top">⬆️</button>
+  </footer>
+
+</body>
+
+</html>
